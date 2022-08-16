@@ -1,2 +1,2 @@
-# thom-cameron.github.io
+# GitHub Site
 An HTML/CSS version of my CV for screens
