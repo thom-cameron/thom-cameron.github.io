@@ -17,7 +17,7 @@ td {
 }
 #left {padding-right: 20px;}
 #right {padding-left: 20px;}
-@media screen and (max-width:760px) {
+@media (screen and (max-width:768px)), (pointer:none), (pointer:coarse) {
     td{width:100%;}
     #left {padding-right: 0px;}
     #right {padding-left: 0px;}
