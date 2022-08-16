@@ -1,0 +1,81 @@
+/* Set up page overall */
+.content {
+    max-width: 960px;
+    margin: 60px;
+}
+
+/* Configure columns */
+table{width:100%;}
+tr { 
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+td {
+    width: 50%;
+    box-sizing: border-box;
+}
+#left {padding-right: 20px;}
+#right {padding-left: 20px;}
+@media screen and (max-width:760px) {
+    td{width:100%;}
+    #left {padding-right: 0px;}
+    #right {padding-left: 0px;}
+}
+
+/* Get web fonts from the github repo */
+@font-face {
+    font-family: "Cascadia Code";
+    src: url(https://rawcdn.githack.com/thom-cameron/cv/65aedb3f9238aeeb6869f3af4a573b2a6389d74b/fonts/CascadiaCodeRegular.ttf)
+}
+@font-face {
+    font-family: "Inter";
+    src: url(https://rawcdn.githack.com/thom-cameron/cv/65aedb3f9238aeeb6869f3af4a573b2a6389d74b/fonts/InterRegular.otf)
+}
+
+/* Configure heading and paragraph styles */
+h1 {
+    font-family: "Cascadia Code", "Lucidia Console", "Courier New", monospace;
+    font-weight: bold;
+    color: blue;
+    margin-top: -5px;
+    margin-bottom: 0px;
+}
+h2 {
+    font-family: "Cascadia Code", "Lucidia Console", "Courier New", monospace;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+h3 {
+    font-family: "Cascadia Code", "Lucidia Console", "Courier New", monospace;
+    font-weight: bold;
+    color: grey;
+    margin-top: 0px;
+    margin-bottom: 1em;
+    line-height: 0.9em;
+}
+h4 {
+    font-family: Inter, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+body, p {
+    font-family: Inter, Helvetica, sans-serif;
+    font-weight: normal;
+    color: black;
+    font-size: 16px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+/* Remove spaces manually */
+.rmsps {
+    margin-bottom: 5px;
+}
+.rmspl {
+    margin-bottom: -10px;
+}
