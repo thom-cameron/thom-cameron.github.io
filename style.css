@@ -26,11 +26,11 @@ td {
 /* Get web fonts from the github repo */
 @font-face {
     font-family: "Cascadia Code";
-    src: url(https://rawcdn.githack.com/thom-cameron/cv/65aedb3f9238aeeb6869f3af4a573b2a6389d74b/fonts/CascadiaCodeRegular.ttf)
+    src: url(fonts/CascadiaCodeRegular.ttf)
 }
 @font-face {
     font-family: "Inter";
-    src: url(https://rawcdn.githack.com/thom-cameron/cv/65aedb3f9238aeeb6869f3af4a573b2a6389d74b/fonts/InterRegular.otf)
+    src: url(fonts/InterRegular.otf)
 }
 
 /* Configure heading and paragraph styles */
